@@ -4,13 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/_2fc53db72cf219e20fd61969cbf4461c_marcianito_miprimer_proyecto_android"
-    android:paddingLeft="0dp"
-    android:paddingTop="0dp"
-    android:paddingBottom="0dp"
     android:paddingRigth="0dp"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_2fc53db72cf219e20fd61969cbf4461c_marcianito_miprimer_proyecto_android2" />
 
     <TextView
         android:id="@+id/textView"
@@ -19,6 +25,5 @@
         android:gravity="center"
         android:text="@string/titulo_app"
         android:textSize="@dimen/textsize" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
