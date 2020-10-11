@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">PrimerProyectoAndroid</string>
+    <string name="titulo_app">Mi primer proyecto </string>
+</resources>
